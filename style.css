@@ -14,3 +14,15 @@ header {
 .sectionTwo {
     color: white;
 }
+
+.reviewCard {
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+    height: 180px;
+}
+
+.reviewcardSpecial {
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+    height: 200px;
+}
