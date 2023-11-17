@@ -1,18 +1,19 @@
 header {
-    display: flex;
+    /* display: flex; */
     background-color: black;
     color: white;
 }
 
 .sectionTop {
-    background-image: url(https://images.unsplash.com/photo-1540917318530-80bfaa52ac2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D);
-    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* width: 100%; */
     height: 500px;
     background-size: cover;
 }
 
 .sectionTwo {
     color: white;
+    /* padding: 100px; */
 }
 
 .reviewCard {
@@ -25,4 +26,12 @@ header {
     background-color: rgb(54, 53, 53);
     border-radius: 20px;
     height: 200px;
+}
+
+.PClist {
+    border-radius: 10px;
+    margin-bottom: 200px;
+    position: absolute;
+    bottom: -35px;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.073);
 }
