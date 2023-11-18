@@ -20,7 +20,7 @@
 
     <!-- ANCHOR Header/Main -->
 
-    <header class="container-fluid p-2">
+    <header class="container-fluid p-2 sticky-top">
         <div class="d-flex align-items-center">
             <i class="mdi mdi-laptop me-2"></i>
             <h2 class="">PC City</h2>
@@ -29,19 +29,20 @@
 
     <main class="container-fluid">
         <section class="row sectionTop pt-5 pb-5 justify-content-evenly">
-            <div class="col-10 bg-light rounded-3 col-md-4 p-2">
-                <form>
+            <div class="col-10 col-md-4 ps-3 pe-5">
+                <h5 class="text-light mb-1">Make an account for annoying emails!</h5>
+                <form class="bg-light rounded-3 p-3 bg-light">
                     <h6>Make an account today!</h6>
-                    <input class="mt-1" type="text" placeholder="Name" required="Name">
+                    <input class="mt-1 width" type="text" placeholder="Name" required="Name">
                     <input class="mt-1" type="text" placeholder="Email" required="Email">
                     <input class="mt-1" type="text" placeholder="Phone" required="Phone">
                     <input class="mt-1" type="text" placeholder="EXT" required="EXT">
                     <input class="mt-1" type="text" placeholder="Message" required="Message">
+                    <div class="d-flex align-items-baseline">
+                        <input class="mt-1" type="checkbox">
+                        <p class="ms-1">I agree to the terms and conditions.</p>
+                    </div>
                 </form>
-                <div class="d-flex align-items-baseline">
-                    <input class="mt-1" type="checkbox">
-                    <p class="ms-1">I agree to the terms and conditions.</p>
-                </div>
 
             </div>
             <div class="col-3 text-light d-md-flex flex-column d-none ">
@@ -50,24 +51,25 @@
             </div>
         </section>
 
-        <!-- FIXME Order Fix needed -->
+        <!-- PC list and claim section -->
 
-        <section class="container-fluid">
-            <div class="row sectionTwo order-md-0 order-1 bg-dark justify-content-md-start justify-content-center">
+        <section class="row justify-content-md-end justify-content-center">
+            <div class="col-12 sectionTwo order-md-0 order-1 bg-dark justify-content-md-start justify-content-center">
                 <span class="">
                     <h1 class="pt-5 ms-5">We build ok computers!</h1>
                     <p class="pb-5 ms-5">Our PCs are almost reliable and lots of fun!</p>
                 </span>
             </div>
-            <div class="row width-100 justify-content-md-end justify-content-center mt-md-0 mt-3 order-0">
-                <span class="PClist d-flex flex-column col-6 p-3 col-md-5">
+           
+
+                <div class="d-flex PClist col-4 flex-column p-3 order-0">
                     <i class="mdi mdi-cat">The Cat PC</i>
                     <i class="mdi mdi-dog">The Dog PC</i>
                     <i class="mdi mdi-mouse">The Mouse PC</i>
                     <i class="mdi mdi-bird">The Bird PC</i>
                     <i class="mdi mdi-bug">The Bug PC</i>
-                </span>
-            </div>
+                </div>
+
         </section>
 
         <!-- Picture With Info -->
