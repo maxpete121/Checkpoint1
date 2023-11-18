@@ -17,10 +17,47 @@ header {
     /* padding: 100px; */
 }
 
+@media (min-width: 768px) {
+    .PClist {
+        background-color: rgb(47, 47, 47);
+        color: white;
+        border-radius: 10px;
+        /* margin-bottom: 200px; */
+        position: absolute;
+        bottom: -150px;
+        box-shadow: 0px 10px rgba(0, 0, 0, 0.155);
+    }
+    .PClist:hover {
+        background-color: rgba(47, 47, 47, 0.896);
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        /* margin-bottom: 200px; */
+        position: absolute;
+        bottom: -150px;
+        box-shadow: 0px 10px rgba(0, 0, 0, 0.448);
+    }
+}
+@media (max-width: 768px) {
+    .PClist {
+        background-color: rgb(47, 47, 47);
+        color: white;
+        border-radius: 10px;
+        order: 1;
+        /* margin-bottom: 200px; */
+        /* position: absolute; */
+        /* bottom: -250px; */
+        box-shadow: 0px 10px rgba(0, 0, 0, 0.155);
+
+}
+
+}
+
 .reviewCard {
     background-color: rgb(54, 53, 53);
     border-radius: 20px;
     height: 180px;
+    align-items: center;
 }
 
 .reviewcardSpecial {
@@ -29,12 +66,3 @@ header {
     height: 200px;
 }
 
-@media (min-width: 768px) {
-    .PClist {
-        border-radius: 10px;
-        margin-bottom: 200px;
-        position: absolute;
-        bottom: -250px;
-        box-shadow: 0px 10px rgba(0, 0, 0, 0.073);
-    }
-}
